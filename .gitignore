@@ -1,8 +1,14 @@
 # 直接取反指定git管理文件
-*
-!/**/
 
-!*.h
-!*.cpp
-!*.ui
-!.gitignore
+**/.vs
+**/Debug
+**/x64
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.dat
+**/build*Debug
+*.pro
+*.pro.user
+*.8-pre1
